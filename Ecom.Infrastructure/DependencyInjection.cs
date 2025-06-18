@@ -12,7 +12,7 @@ namespace Ecom.Infrastructure
         public static IServiceCollection AddInfrastructure(this IServiceCollection services , IConfiguration configuration)
         {
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenercRepository<>));
-
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 
             var connctionString = configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("no conntecion string was found");

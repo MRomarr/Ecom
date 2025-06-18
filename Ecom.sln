@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.Domain", "Ecom.Domain\Ecom.Domain.csproj", "{49CB4AC7-8CF4-4DB3-88E9-C9DC6B5F40B0}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.API", "Ecom.API\Ecom.API.csproj", "{49CD12BA-2C73-44DE-88B3-C729A734BBCB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.Application", "Ecom.Application\Ecom.Application.csproj", "{59945555-0BDA-4C75-9020-B5154C829BD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +38,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49CB4AC7-8CF4-4DB3-88E9-C9DC6B5F40B0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3B2570FE-5DF5-483A-8EBA-7A4A9E1AC33D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{49CD12BA-2C73-44DE-88B3-C729A734BBCB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{59945555-0BDA-4C75-9020-B5154C829BD3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {68F1E9E9-885E-4FAF-82E2-8BFF4093FA17}
